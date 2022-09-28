@@ -9,11 +9,18 @@ namespace Calculator
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+        
+            var name = Console.ReadLine();
+            var nam2 = Console.ReadLine();
+            var name = Console.ReadLine();
+            var name = Console.ReadLine();
+            var name = Console.ReadLine();
+
 
             Console.WriteLine("Tworzymy Kalkulator");
             Console.WriteLine("Tworzymy Kalkulator");
-
+            Console.ReadLine();
             Console.WriteLine("Tworzymy Kalkulator");
             Console.WriteLine("Tworzymy Kalkulator");
             Console.WriteLine("Tworzymy Kalkulator");
