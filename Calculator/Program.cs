@@ -11,6 +11,9 @@ namespace Calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Tworzymy Kalkulator");
+
+
+
             Console.WriteLine("Tworz");
 
 
