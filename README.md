@@ -1,1 +1,2 @@
 # calculate-api
+Lsta testowa
