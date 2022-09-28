@@ -12,7 +12,12 @@ namespace Calculator
         {
 
             Console.WriteLine("Tworzymy Kalkulator");
+            Console.WriteLine("Tworzymy Kalkulator");
 
+            Console.WriteLine("Tworzymy Kalkulator");
+            Console.WriteLine("Tworzymy Kalkulator");
+            Console.WriteLine("Tworzymy Kalkulator");
+            Console.WriteLine("Tworzymy Kalkulator");
             Console.WriteLine("Tworzymy Kalkulator");
 
             Console.WriteLine("Tworzymy Kalkulator");
