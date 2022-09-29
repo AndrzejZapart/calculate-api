@@ -4,42 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculator
+namespace EvenOddApp
 {
     class Program
     {
         static void Main(string[] args)
-        { 
-        
-            var name = Console.ReadLine();
-            var nam2 = Console.ReadLine();
-                var name = Console.ReadLine();
+        {
 
+            Console.WriteLine("Cześć w tym programie sprawdzimy czy podałeś wartość parzystą czy nie parzystą.\nProszę podaj swoją liczbę:");
+            var number = CheckNumber();
+            if (number % 2 == 0)
+            {
+                Console.WriteLine($"Liczba którą wprowadziłeś czyli {number} jest liczbą parzystą.");
+            }
+            if (number % 2 != 0)
+            {
+                Console.WriteLine($"Liczba którą wprowadziłeś czyli {number} jest liczbą nieparzystą.");
+            }
+        }
 
-            Console.WriteLine("Tworzymy Kalkulator");
-            
-             
-             
-             Console.WriteLine("Tworzymy Kalkulator");
-            Console.ReadLine();
-            Console.WriteLine("Tworzymy Kalkulator");
-            Console.WriteLine("Tworzymy Kalkulator");
-
-            var liczb = 111;
-
-            Console.WriteLine("Tworzymy Kalkulator");
-            Console.WriteLine("Tworzymy Kalkulator");
-            Console.WriteLine("Tworzymy Kalkulator");
-
-            Console.WriteLine("Tworzymy Kalkulator");
-
-
-            Console.WriteLine("Tworz");
-
-
-
-
-
+        private static int CheckNumber()
+        {
+            while (true)
+            {
+                if (!int.TryParse(Console.ReadLine(), out int num))
+                {
+                    Console.WriteLine("Podałeś nieprawidłową wartość. Podaj ją jeszcze raz.");
+                    continue;
+                }
+                return num;
+            }
         }
     }
 }
